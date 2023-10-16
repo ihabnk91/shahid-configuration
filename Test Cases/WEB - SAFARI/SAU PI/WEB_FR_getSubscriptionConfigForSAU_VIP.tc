@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_FR_getSubscriptionConfigForSAU_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de1eb619-f21c-40ec-b1ee-e46dcf0d851f</testCaseGuid>
+</TestCaseEntity>

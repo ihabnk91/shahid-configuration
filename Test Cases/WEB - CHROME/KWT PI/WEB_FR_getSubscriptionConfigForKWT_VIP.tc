@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_FR_getSubscriptionConfigForKWT_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7384f0b-b0e5-4dcc-90e4-60e3a609f494</testCaseGuid>
+</TestCaseEntity>

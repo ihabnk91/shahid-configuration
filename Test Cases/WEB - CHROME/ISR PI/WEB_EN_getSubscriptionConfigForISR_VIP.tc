@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_EN_getSubscriptionConfigForISR_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4bb04fd4-4ac6-42c7-b9c9-b3e14a6bf256</testCaseGuid>
+</TestCaseEntity>

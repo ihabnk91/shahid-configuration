@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_FR_getSubscriptionConfigForMAR_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9af7000-ca72-497f-8617-fadf4dcb1111</testCaseGuid>
+</TestCaseEntity>

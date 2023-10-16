@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_FR_getSubscriptionConfigForTUR_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd3ad764-af47-4f4e-b1e2-3b48d8e817a6</testCaseGuid>
+</TestCaseEntity>

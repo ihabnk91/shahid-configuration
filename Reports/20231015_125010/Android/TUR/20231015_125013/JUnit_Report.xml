@@ -1,0 +1,2522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TUR" time="9.642" tests="6" failures="5" errors="0">
+   <testsuite name="TUR" tests="6" failures="5" errors="0" time="9.642" skipped="0" timestamp="2023-10-15 12:51:07" hostname="admin - 10.109.12.195" id="Test Suites/Android/TUR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/Downloads/Shahid-Fawry/Reports/20231015_125010/Android/TUR/20231015_125013"/>
+         <property name="logFiles" value="/Users/admin/Downloads/Shahid-Fawry/Reports/20231015_125010/Android/TUR/20231015_125013/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 10.109.12.195"/>
+         <property name="hostAddress" value="10.109.12.195"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+      </properties>
+      <testcase name="Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_GEA" time="2.475" classname="Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_GEA" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_GEA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '149.99 TRY / month' is not equal with actual property value '149.99 TRY/ month'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_EN_getSubscriptionConfigForTUR_GEA.run(ANDROID_EN_getSubscriptionConfigForTUR_GEA:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)
+"/>
+         <system-out><![CDATA[2023-10-15 12:51:07 - [TEST_CASE][FAILED] - Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_GEA: Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_GEA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '149.99 TRY / month' is not equal with actual property value '149.99 TRY/ month'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_EN_getSubscriptionConfigForTUR_GEA.run(ANDROID_EN_getSubscriptionConfigForTUR_GEA:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)
+
+
+2023-10-15 12:51:07 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "EN", "SHAHID_VIP_GEA", "TR", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:09 - [MESSAGE][INFO] - HAR: /Users/admin/Downloads/Shahid-Fawry/Reports/20231015_125010/Android/TUR/20231015_125013/requests/main/0.har
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "TUR"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "true"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_VIP_GEA"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "GEA"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "Monthly Plan"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "149.99 TRY / month"): Expected element property value '149.99 TRY / month' is not equal with actual property value '149.99 TRY/ month'
+
+2023-10-15 12:51:09 - [MESSAGE][FAILED] - Expected element property value '149.99 TRY / month' is not equal with actual property value '149.99 TRY/ month'
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[4].value", "billed every month"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "false"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "149.99"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[12].value", "Monthly"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[13].key", "featured_tag_text"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[13].value", "Most popular"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "6"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "149.99"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_GEA_1M"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[net.shahid.monthly.gea]"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "Subscribe"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "149.99"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].featured", "false"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].packageId", "SHAHID_VIP_GEA"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].catalogId", "GEA"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].value", "Annual Plan"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].key", "tag_text"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].value", "Save 15%"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].value", "127.49 TRY / month"): Expected element property value '127.49 TRY / month' is not equal with actual property value '127.49 TRY/ month'
+
+2023-10-15 12:51:09 - [MESSAGE][FAILED] - Expected element property value '127.49 TRY / month' is not equal with actual property value '127.49 TRY/ month'
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].value", "1529.99 TRY billed every year"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].value", "1529.99"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].value", "yearly"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].order", "8"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].period", "yearly"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].price", "1529.99"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_GEA_12M"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds", "[net.shahid.12months.gea]"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value", "Subscribe"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].priceLabel", "1529.99"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition", "true"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "This offer is not valid for users previously subscribed through Google Play. Subscription fees may vary depending on the country, payment method, subscription package, added tax, currency conversion factor, and bank fees. Terms and conditions apply."): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[2023-10-15 12:51:07 - [TEST_CASE][FAILED] - Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_GEA: Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_GEA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '149.99 TRY / month' is not equal with actual property value '149.99 TRY/ month'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_EN_getSubscriptionConfigForTUR_GEA.run(ANDROID_EN_getSubscriptionConfigForTUR_GEA:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ANDROID/TUR PI/ANDROID_AR_getSubscriptionConfigForTUR_VIP" time="1.48" classname="Test Cases/ANDROID/TUR PI/ANDROID_AR_getSubscriptionConfigForTUR_VIP" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ANDROID/TUR PI/ANDROID_AR_getSubscriptionConfigForTUR_VIP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'false' is not equal with actual property value 'true'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_AR_getSubscriptionConfigForTUR_VIP.run(ANDROID_AR_getSubscriptionConfigForTUR_VIP:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)
+"/>
+         <system-out><![CDATA[2023-10-15 12:51:10 - [TEST_CASE][FAILED] - Test Cases/ANDROID/TUR PI/ANDROID_AR_getSubscriptionConfigForTUR_VIP: Test Cases/ANDROID/TUR PI/ANDROID_AR_getSubscriptionConfigForTUR_VIP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'false' is not equal with actual property value 'true'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_AR_getSubscriptionConfigForTUR_VIP.run(ANDROID_AR_getSubscriptionConfigForTUR_VIP:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)
+
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "AR", "SHAHID_VIP", "TR", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:10 - [MESSAGE][INFO] - HAR: /Users/admin/Downloads/Shahid-Fawry/Reports/20231015_125010/Android/TUR/20231015_125013/requests/main/1.har
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "TUR"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "false"): Expected element property value 'false' is not equal with actual property value 'true'
+
+2023-10-15 12:51:10 - [MESSAGE][FAILED] - Expected element property value 'false' is not equal with actual property value 'true'
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "VIP"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "الاشتراك الشهري "): Expected element property value 'الاشتراك الشهري ' is not equal with actual property value 'الاشتراك الشهري'
+
+2023-10-15 12:51:10 - [MESSAGE][FAILED] - Expected element property value 'الاشتراك الشهري ' is not equal with actual property value 'الاشتراك الشهري'
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].value", "76.99 TRY / شهرياً"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "تدفع شهرياً"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "76.99"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "شهرياً"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "0"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "76.99"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_1M"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[mbc.shahid.plus1monthfreetrial]"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "اشترك"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "76.99"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].featured", "false"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].packageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].catalogId", "VIP"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].value", "الاشتراك السنوي"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].key", "tag_text"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].value", "29% وفر"): Expected element property value '29% وفر' is not equal with actual property value 'وفر29%'
+
+2023-10-15 12:51:11 - [MESSAGE][FAILED] - Expected element property value '29% وفر' is not equal with actual property value 'وفر29%'
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].value", "54.99 TRY / شهرياً"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].value", " 659.99 TRY  تدفع سنوياً"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].value", "659.99"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].value", "سنوياً"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].order", "2"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].period", "yearly"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].price", "659.99"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_12M"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds", "[mbc.shahid.plusyearly]"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value", "اشترك"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].priceLabel", "659.99"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition", "true"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "العرض غير متاح للمشتركين السابقين عبر جوجل بلاي. رسوم الاشتراك قد تختلف بناءً على البلد أو طريقة الدفع أو باقة الاشتراك أو الضريبة المضافة أو معامل تحويل العملات والرسوم البنكية. تطبّق الشروط والأحكام."): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:11 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[2023-10-15 12:51:10 - [TEST_CASE][FAILED] - Test Cases/ANDROID/TUR PI/ANDROID_AR_getSubscriptionConfigForTUR_VIP: Test Cases/ANDROID/TUR PI/ANDROID_AR_getSubscriptionConfigForTUR_VIP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'false' is not equal with actual property value 'true'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_AR_getSubscriptionConfigForTUR_VIP.run(ANDROID_AR_getSubscriptionConfigForTUR_VIP:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_GEA" time="1.401" classname="Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_GEA" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_GEA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '149.99 TRY / mois' is not equal with actual property value '149.99 TRY/ mois'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_FR_getSubscriptionConfigForTUR_GEA.run(ANDROID_FR_getSubscriptionConfigForTUR_GEA:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)
+"/>
+         <system-out><![CDATA[2023-10-15 12:51:11 - [TEST_CASE][FAILED] - Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_GEA: Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_GEA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '149.99 TRY / mois' is not equal with actual property value '149.99 TRY/ mois'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_FR_getSubscriptionConfigForTUR_GEA.run(ANDROID_FR_getSubscriptionConfigForTUR_GEA:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)
+
+
+2023-10-15 12:51:11 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "FR", "SHAHID_VIP_GEA", "TR", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:12 - [MESSAGE][INFO] - HAR: /Users/admin/Downloads/Shahid-Fawry/Reports/20231015_125010/Android/TUR/20231015_125013/requests/main/2.har
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "TUR"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "true"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_VIP_GEA"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "GEA"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "Plan Mensuel"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "149.99 TRY / mois"): Expected element property value '149.99 TRY / mois' is not equal with actual property value '149.99 TRY/ mois'
+
+2023-10-15 12:51:12 - [MESSAGE][FAILED] - Expected element property value '149.99 TRY / mois' is not equal with actual property value '149.99 TRY/ mois'
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[4].value", "facturation mensuelle"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "false"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "149.99"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[12].value", "Mensuel"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[13].key", "featured_tag_text"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[13].value", "Le plus populaire"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "6"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "149.99"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_GEA_1M"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[net.shahid.monthly.gea]"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "S’abonner"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "149.99"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].featured", "false"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].packageId", "SHAHID_VIP_GEA"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].catalogId", "GEA"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].value", "Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].value", "Plan Annuel"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].key", "tag_text"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].value", "Économisez 15%"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].value", "127.49 TRY / mois"): Expected element property value '127.49 TRY / mois' is not equal with actual property value '127.49 TRY/ mois'
+
+2023-10-15 12:51:12 - [MESSAGE][FAILED] - Expected element property value '127.49 TRY / mois' is not equal with actual property value '127.49 TRY/ mois'
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].value", "1529.99 TRY facturés chaque année"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].value", "1529.99"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].value", "Annuel"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].order", "8"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].period", "yearly"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].price", "1529.99"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_GEA_12M"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds", "[net.shahid.12months.gea]"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value", "S’abonner"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].priceLabel", "1529.99"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition", "true"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "L'offre n'est pas valable pour les anciens abonnés via Google Play. Les frais d’abonnement peuvent varier selon le pays, le moyen de paiement, le forfait, les taxes, les taux de change et les frais bancaires. Les conditions générales d’utilisation s’appliquent."): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:12 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[2023-10-15 12:51:11 - [TEST_CASE][FAILED] - Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_GEA: Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_GEA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '149.99 TRY / mois' is not equal with actual property value '149.99 TRY/ mois'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_FR_getSubscriptionConfigForTUR_GEA.run(ANDROID_FR_getSubscriptionConfigForTUR_GEA:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_VIP" time="1.358" classname="Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_VIP" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_VIP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Plan Mensuel' is not equal with actual property value 'Plan Mensuel '
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_FR_getSubscriptionConfigForTUR_VIP.run(ANDROID_FR_getSubscriptionConfigForTUR_VIP:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)
+"/>
+         <system-out><![CDATA[2023-10-15 12:51:12 - [TEST_CASE][FAILED] - Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_VIP: Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_VIP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Plan Mensuel' is not equal with actual property value 'Plan Mensuel '
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_FR_getSubscriptionConfigForTUR_VIP.run(ANDROID_FR_getSubscriptionConfigForTUR_VIP:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)
+
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "FR", "SHAHID_VIP", "TR", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:13 - [MESSAGE][INFO] - HAR: /Users/admin/Downloads/Shahid-Fawry/Reports/20231015_125010/Android/TUR/20231015_125013/requests/main/3.har
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "TUR"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "true"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "VIP"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "Plan Mensuel"): Expected element property value 'Plan Mensuel' is not equal with actual property value 'Plan Mensuel '
+
+2023-10-15 12:51:13 - [MESSAGE][FAILED] - Expected element property value 'Plan Mensuel' is not equal with actual property value 'Plan Mensuel '
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].value", "76.99 TRY/ mois"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "facturation mensuelle"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "76.99"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "Mensuel"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "0"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "76.99"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_1M"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[mbc.shahid.plus1monthfreetrial]"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "S’abonner"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "76.99"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].featured", "false"): Verify element property value successfully
+
+2023-10-15 12:51:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].packageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].catalogId", "VIP"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].value", "Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].value", "Plan Annuel "): Expected element property value 'Plan Annuel ' is not equal with actual property value 'Plan Annuel ​'
+
+2023-10-15 12:51:14 - [MESSAGE][FAILED] - Expected element property value 'Plan Annuel ' is not equal with actual property value 'Plan Annuel ​'
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].key", "tag_text"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].value", "Économisez 29%"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].value", "54.99 TRY/ mois"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].value", "659.99 TRY facturés chaque année"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].value", "659.99"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].value", "Annuel"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].order", "2"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].period", "yearly"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].price", "659.99"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_12M"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds", "[mbc.shahid.plusyearly]"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value", "S’abonner"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].priceLabel", "659.99"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition", "true"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "L'offre n'est pas valable pour les anciens abonnés via Google Play. Les frais d’abonnement peuvent varier selon le pays, le moyen de paiement, le forfait, les taxes, les taux de change et les frais bancaires. Les conditions générales d’utilisation s’appliquent."): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[2023-10-15 12:51:12 - [TEST_CASE][FAILED] - Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_VIP: Test Cases/ANDROID/TUR PI/ANDROID_FR_getSubscriptionConfigForTUR_VIP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Plan Mensuel' is not equal with actual property value 'Plan Mensuel '
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_FR_getSubscriptionConfigForTUR_VIP.run(ANDROID_FR_getSubscriptionConfigForTUR_VIP:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ANDROID/TUR PI/ANDROID_AR_getSubscriptionConfigForTUR_GEA" time="1.212" classname="Test Cases/ANDROID/TUR PI/ANDROID_AR_getSubscriptionConfigForTUR_GEA" status="PASSED">
+         <system-out><![CDATA[2023-10-15 12:51:14 - [TEST_CASE][PASSED] - Test Cases/ANDROID/TUR PI/ANDROID_AR_getSubscriptionConfigForTUR_GEA: Test Cases/ANDROID/TUR PI/ANDROID_AR_getSubscriptionConfigForTUR_GEA
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "AR", "SHAHID_VIP_GEA", "TR", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:14 - [MESSAGE][INFO] - HAR: /Users/admin/Downloads/Shahid-Fawry/Reports/20231015_125010/Android/TUR/20231015_125013/requests/main/4.har
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "TUR"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "true"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_VIP_GEA"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "GEA"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "الاشتراك الشهري"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "149.99 TRY / شهرياً"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[4].value", "تدفع شهرياً"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "false"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "149.99"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[12].value", "شهرياً"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[13].key", "featured_tag_text"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[13].value", " الأكثر مبيعاً"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "6"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "149.99"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_GEA_1M"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[net.shahid.monthly.gea]"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "اشترك"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "149.99"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].featured", "false"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].packageId", "SHAHID_VIP_GEA"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].catalogId", "GEA"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].value", "الاشتراك السنوي"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].key", "tag_text"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].value", "وفر15%"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].value", "127.49 TRY / شهرياً"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].value", " 1529.99 TRY  تدفع سنوياً"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].value", "1529.99"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].value", "سنوياً"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].order", "8"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].period", "yearly"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].price", "1529.99"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_GEA_12M"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds", "[net.shahid.12months.gea]"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value", "اشترك"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].priceLabel", "1529.99"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition", "true"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "العرض غير متاح للمشتركين السابقين عبر جوجل بلاي. رسوم الاشتراك قد تختلف بناءً على البلد أو طريقة الدفع أو باقة الاشتراك أو الضريبة المضافة أو معامل تحويل العملات والرسوم البنكية. تطبّق الشروط والأحكام."): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:15 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_VIP" time="1.509" classname="Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_VIP" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_VIP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'false' is not equal with actual property value 'true'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_EN_getSubscriptionConfigForTUR_VIP.run(ANDROID_EN_getSubscriptionConfigForTUR_VIP:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)
+"/>
+         <system-out><![CDATA[2023-10-15 12:51:15 - [TEST_CASE][FAILED] - Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_VIP: Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_VIP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'false' is not equal with actual property value 'true'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_EN_getSubscriptionConfigForTUR_VIP.run(ANDROID_EN_getSubscriptionConfigForTUR_VIP:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)
+
+
+2023-10-15 12:51:15 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "EN", "SHAHID_VIP", "TR", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:16 - [MESSAGE][INFO] - HAR: /Users/admin/Downloads/Shahid-Fawry/Reports/20231015_125010/Android/TUR/20231015_125013/requests/main/5.har
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "TUR"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "false"): Expected element property value 'false' is not equal with actual property value 'true'
+
+2023-10-15 12:51:16 - [MESSAGE][FAILED] - Expected element property value 'false' is not equal with actual property value 'true'
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "VIP"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][FAILED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "Monthly Plan "): Expected element property value 'Monthly Plan ' is not equal with actual property value 'Monthly Plan'
+
+2023-10-15 12:51:16 - [MESSAGE][FAILED] - Expected element property value 'Monthly Plan ' is not equal with actual property value 'Monthly Plan'
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].value", "76.99 TRY/ month"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "billed every month"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "76.99"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "Monthly"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "0"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "76.99"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_1M"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[mbc.shahid.plus1monthfreetrial]"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "Subscribe"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "76.99"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].featured", "false"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].packageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].catalogId", "VIP"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].value", "Annual Plan"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].key", "tag_text"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].value", "Save 29%"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].value", "54.99 TRY/ month"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].value", "659.99 TRY billed every year"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].value", "true"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].value", "659.99"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].value", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].value", "yearly"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].order", "2"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].period", "yearly"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].price", "659.99"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].currency", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].productId", "TUR_B2C_SHAHID_VIP_12M"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds", "[mbc.shahid.plusyearly]"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value", "Subscribe"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].priceLabel", "659.99"): Verify element property value successfully
+
+2023-10-15 12:51:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel", "TRY"): Verify element property value successfully
+
+2023-10-15 12:51:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition", "true"): Verify element property value successfully
+
+2023-10-15 12:51:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-15 12:51:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-15 12:51:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-15 12:51:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "This offer is not valid for users previously subscribed through Google Play. Subscription fees may vary depending on the country, payment method, subscription package, added tax, currency conversion factor, and bank fees. Terms and conditions apply."): Verify element property value successfully
+
+2023-10-15 12:51:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-15 12:51:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-15 12:51:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-15 12:51:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-15 12:51:17 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[2023-10-15 12:51:15 - [TEST_CASE][FAILED] - Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_VIP: Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_VIP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'false' is not equal with actual property value 'true'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_EN_getSubscriptionConfigForTUR_VIP.run(ANDROID_EN_getSubscriptionConfigForTUR_VIP:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-15 12:51:07 - [TEST_SUITE][FAILED] - TUR: Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_GEA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '149.99 TRY / month' is not equal with actual property value '149.99 TRY/ month'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_EN_getSubscriptionConfigForTUR_GEA.run(ANDROID_EN_getSubscriptionConfigForTUR_GEA:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-10-15 12:51:07 - [TEST_SUITE][FAILED] - TUR: Test Cases/ANDROID/TUR PI/ANDROID_EN_getSubscriptionConfigForTUR_GEA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '149.99 TRY / month' is not equal with actual property value '149.99 TRY/ month'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:190)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at ANDROID_EN_getSubscriptionConfigForTUR_GEA.run(ANDROID_EN_getSubscriptionConfigForTUR_GEA:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697363413869.run(TempTestSuite1697363413869.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

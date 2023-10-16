@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IOS_FR_getSubscriptionConfigForLBN_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94c28594-f502-449b-a08a-78ebb1435308</testCaseGuid>
+</TestCaseEntity>

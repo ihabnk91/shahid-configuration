@@ -1,0 +1,916 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AUS,,,,2023-08-20 14:33:14,2023-08-20 14:33:36,22.491s,FAILED
+,,,,,,,
+Test Cases/WEB - SAFARI/AUS PI/WEB_AR_getSubscriptionConfigForAUS_GEA,,,,2023-08-20 14:33:14,2023-08-20 14:33:17,2.982s,PASSED
+"getResponse = config_files.getConfigFile.getConfig(""WEB"", ""AR"", ""SHAHID_VIP_GEA"", ""AU"", ""true"")",,,,2023-08-20 14:33:14,2023-08-20 14:33:16,1.497s,PASSED
+"verifyResponseStatusCode(getResponse, 200)",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""country"", ""AUS"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.024s,PASSED
+"verifyElementPropertyValue(getResponse, ""platform"", ""[WEB]"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_GEA"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].catalogId"", ""GEA"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].key"", ""Header_1_text"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].key"", ""display_title"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].value"", ""الاشتراك الشهري"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].key"", ""promo_text"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].value"", ""20.49 AUD / شهرياً"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[4].key"", ""deduction_text"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[4].value"", ""تدفع شهرياً"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[7].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[7].value"", ""true"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].key"", ""show_tag"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].value"", ""false"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].key"", ""price"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].value"", ""20.49"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[11].key"", ""currency"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[11].value"", ""AUD"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[12].key"", ""duration"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[12].value"", ""شهرياً"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[13].key"", ""featured_tag_text"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[13].value"", "" الأكثر مبيعاً"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].order"", ""6"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].price"", ""20.49"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].currency"", ""AUD"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_GEA_1M"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].value"", ""البطاقة المصرفية"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""20.49"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].productId"", ""AUS_B2C_SHAHID_VIP_GEA_1M"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].priceLabel"", ""20.49"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].featured"", ""false"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].packageId"", ""SHAHID_VIP_GEA"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].catalogId"", ""GEA"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].value"", ""الاشتراك السنوي"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].key"", ""tag_text"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].value"", ""وفر23%"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].key"", ""promo_text"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].value"", ""AUD 15.83 / شهرياً"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].key"", ""deduction_text"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].value"", "" AUD 189.99  تدفع سنوياً"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].value"", ""true"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].key"", ""show_tag"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].value"", ""true"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].key"", ""price"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].value"", ""189.99"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].key"", ""currency"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].value"", ""AUD"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].key"", ""duration"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].value"", ""سنوياً"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:16,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].order"", ""8"")",,,,2023-08-20 14:33:16,2023-08-20 14:33:17,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].period"", ""yearly"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].price"", ""189.99"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].currency"", ""AUD"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_GEA_12M"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].value"", ""البطاقة المصرفية"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].priceLabel"", ""189.99"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].productId"", ""AUS_B2C_SHAHID_VIP_GEA_12M"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].priceLabel"", ""189.99"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].key"", ""main_CTA_text_1"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].key"", ""main_disclaimer_text"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].value"", ""رسوم الاشتراك قد تختلف بناءً على البلد أو طريقة الدفع أو باقة الاشتراك أو الضريبة المضافة أو معامل تحويل العملات والرسوم البنكية. تطبّق الشروط والأحكام."")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].key"", ""display_type"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].value"", ""vertical"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""defaultPackageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:17,0.009s,PASSED
+,,,,,,,
+Test Cases/WEB - SAFARI/AUS PI/WEB_EN_getSubscriptionConfigForAUS_SPORT,,,,2023-08-20 14:33:17,2023-08-20 14:33:21,4.001s,FAILED
+"getResponse = config_files.getConfigFile.getConfig(""WEB"", ""EN"", ""SHAHID_VIP_SPORT"", ""AU"", ""true"")",,,,2023-08-20 14:33:17,2023-08-20 14:33:18,0.601s,PASSED
+"verifyResponseStatusCode(getResponse, 200)",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.002s,PASSED
+"verifyElementPropertyValue(getResponse, ""country"", ""AUS"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""platform"", ""[WEB]"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.025s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.013s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].value"", ""Monthly Plan "")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].value"", ""27.99 AUD / month"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].value"", ""billed every month"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].value"", ""27.99"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].value"", ""AUD"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].value"", ""Monthly"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].order"", ""3"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].price"", ""27.99"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].currency"", ""AUD"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].value"", ""Credit/Debit Card"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""Subscribe"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""27.99"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].productId"", ""AUS_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].value"", ""Subscribe"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].priceLabel"", ""27.99"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].featured"", ""false"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].catalogId"", ""SPORT"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].value"", ""Annual Plan"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].key"", ""tag_text"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].value"", ""Save 17%"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].key"", ""promo_text"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].value"", ""23.33 AUD/ month"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].key"", ""deduction_text"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].value"", ""279.99 AUD billed every year"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].value"", ""true"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].key"", ""show_tag"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].value"", ""true"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].key"", ""price"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].value"", ""279.99"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].key"", ""currency"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].value"", ""AUD"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].key"", ""duration"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].value"", ""yearly"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].order"", ""5"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:18,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].period"", ""yearly"")",,,,2023-08-20 14:33:18,2023-08-20 14:33:21,2.203s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].price"", ""279.99"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.013s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].currency"", ""AUD"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_SPORT_12M"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.012s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].value"", ""Credit/Debit Card"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.011s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value"", ""Subscribe"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].priceLabel"", ""279.99"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.011s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.011s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.012s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.012s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.011s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].productId"", ""AUS_B2C_SHAHID_VIP_SPORT_12M"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.012s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.012s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.011s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.012s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.012s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.016s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[1].value"", ""Subscribe"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].priceLabel"", ""279.99"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].key"", ""main_CTA_text_1"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].key"", ""main_disclaimer_text"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].value"", ""Subscription fees may vary depending on the country, payment method, subscription package, added tax, currency conversion factor, and bank fees. Terms and conditions apply."")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].key"", ""display_type"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].value"", ""vertical"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""defaultPackageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:21,0.007s,PASSED
+,,,,,,,
+Test Cases/WEB - SAFARI/AUS PI/WEB_FR_getSubscriptionConfigForAUS_Ultimate,,,,2023-08-20 14:33:21,2023-08-20 14:33:25,4.372s,FAILED
+"getResponse = config_files.getConfigFile.getConfig(""WEB"", ""FR"", ""SHAHID_VIP_GEA_SPORT"", ""AU"", ""true"")",,,,2023-08-20 14:33:21,2023-08-20 14:33:22,0.542s,PASSED
+"verifyResponseStatusCode(getResponse, 200)",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.002s,PASSED
+"verifyElementPropertyValue(getResponse, ""country"", ""AUS"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""platform"", ""[WEB]"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_GEA_SPORT"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].catalogId"", ""GEA"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].value"", ""Plan Mensuel"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].key"", ""promo_text"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].value"", ""AUD 31.99 / mois"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[4].key"", ""deduction_text"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[4].value"", ""facturation mensuelle"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[7].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[7].value"", ""true"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].key"", ""show_tag"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].value"", ""false"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].key"", ""price"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].value"", ""31.99"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[11].key"", ""currency"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[11].value"", ""AUD"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[12].key"", ""duration"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[12].value"", ""Mensuel"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[13].key"", ""featured_tag_text"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[13].value"", ""Le plus populaire"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].order"", ""9"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].price"", ""31.99"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].currency"", ""AUD"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_GEA_SPORT_1M"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].value"", ""Carte de crédit/débit"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""S'abonner"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""31.99"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].productId"", ""AUS_B2C_SHAHID_VIP_GEA_SPORT_1M"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].value"", ""S’abonner"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.016s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].priceLabel"", ""31.99"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].featured"", ""false"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].packageId"", ""SHAHID_VIP_GEA_SPORT"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].catalogId"", ""GEA"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].value"", ""Plan Annuel"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].key"", ""tag_text"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].value"", ""Économisez 14%"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].key"", ""promo_text"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].value"", ""27.49 AUD / mois"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].key"", ""deduction_text"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].value"", ""329.99 AUD facturés chaque année"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].value"", ""true"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].key"", ""show_tag"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].value"", ""true"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].key"", ""price"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].value"", ""329.99"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].key"", ""currency"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].value"", ""AUD"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].key"", ""duration"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].value"", ""Annuel"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].order"", ""11"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].period"", ""yearly"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].price"", ""329.99"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].currency"", ""AUD"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_GEA_SPORT_12M"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].value"", ""Carte de crédit/débit"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value"", ""S'abonner"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].priceLabel"", ""329.99"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].productId"", ""AUS_B2C_SHAHID_VIP_GEA_SPORT_12M"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:22,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:22,2023-08-20 14:33:25,2.712s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.012s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[1].value"", ""S’abonner"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].priceLabel"", ""329.99"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].key"", ""main_CTA_text_1"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].key"", ""main_disclaimer_text"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].value"", ""Les frais d'abonnement peuvent varier selon le pays, le moyen de paiement, le forfait, les taxes, les taux de change et les frais bancaires. Les conditions générales d'utilisation s'appliquent."")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].key"", ""display_type"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].value"", ""vertical"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""defaultPackageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:25,2023-08-20 14:33:25,0.007s,PASSED
+,,,,,,,
+Test Cases/WEB - SAFARI/AUS PI/WEB_AR_getSubscriptionConfigForAUS_VIP,,,,2023-08-20 14:33:25,2023-08-20 14:33:29,4.065s,FAILED
+"getResponse = config_files.getConfigFile.getConfig(""WEB"", ""AR"", ""SHAHID_VIP"", ""AU"", ""true"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.740s,PASSED
+"verifyResponseStatusCode(getResponse, 200)",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.001s,PASSED
+"verifyElementPropertyValue(getResponse, ""country"", ""AUS"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""platform"", ""[WEB]"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].offerId"", ""winback-30-offer"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].offerParam"", ""winback30"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].price"", ""8.39"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.011s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].currency"", ""AUD"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.018s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].catalogId"", ""VIP"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[1].value"", ""احصل على خصم 30%"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[2].value"", ""8.39 AUD / شهرياً"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[8].value"", ""8.39"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[9].value"", ""AUD"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:26,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-08-20 14:33:26,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[11].value"", ""عرض لمدة محدودة"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[13].value"", ""وفر 30%"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_1M"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""8.39"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""WB_30P_AUS"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].value"", ""البطاقة المصرفية"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].offerId"", ""winback-40-offer"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].offerParam"", ""winback40"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.006s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].price"", ""7.19"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].currency"", ""AUD"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].catalogId"", ""VIP"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[1].value"", ""احصل على خصم 40%"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[2].value"", ""7.19 AUD / شهرياً"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[8].value"", ""7.19"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[9].value"", ""AUD"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[11].value"", ""عرض لمدة محدودة"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[13].value"", ""وفر 40%"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_1M"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""7.19"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""WB_40P_AUS"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].value"", ""البطاقة المصرفية"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].offerId"", ""winback-50-offer"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].offerParam"", ""winback50"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].price"", ""5.99"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].currency"", ""AUD"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].catalogId"", ""VIP"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[1].value"", ""احصل على خصم 50%"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[2].value"", ""5.99 AUD / شهرياً"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[8].value"", ""5.99"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[9].value"", ""AUD"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[11].value"", ""عرض لمدة محدودة"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.020s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[13].value"", ""وفر 50%"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_1M"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""5.99"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.011s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""RE_50P_AUS"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].value"", ""البطاقة المصرفية"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].offerId"", ""winback-3m-offer"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].offerParam"", ""winback3m"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].price"", ""3.99"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:27,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].currency"", ""AUD"")",,,,2023-08-20 14:33:27,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].catalogId"", ""VIP"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[1].value"", ""بدل الشهر ثلاثة"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[2].value"", ""3.99 AUD / شهرياً"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[8].value"", ""3.99"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[9].value"", ""AUD"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[11].value"", ""عرض لمدة محدودة"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_1M"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""3.99"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""WB_3MP_AUS"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].value"", ""البطاقة المصرفية"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[4].offerId"", ""winback-lt-offer"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].offerParam"", ""winback-lt"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].price"", ""3.99"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].currency"", ""AUD"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].catalogId"", ""VIP"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[1].value"", ""بدل الشهر ثلاثة"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[2].value"", ""3.99 AUD / شهرياً"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[8].value"", ""3.99"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[9].value"", ""AUD"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[11].value"", ""عرض لمدة محدودة"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].featured"", ""false"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].catalogId"", ""VIP"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].value"", ""الاشتراك الشهري "")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].value"", ""16.49 AUD / شهرياً"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].value"", ""16.49"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].value"", ""AUD"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].order"", ""0"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].price"", ""16.49"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].currency"", ""AUD"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_1M"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].value"", ""البطاقة المصرفية"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""16.49"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].productId"", ""AUS_B2C_SHAHID_VIP_1M"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.019s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].priceLabel"", ""16.49"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].featured"", ""false"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].packageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].catalogId"", ""VIP"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].value"", ""الاشتراك السنوي"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].key"", ""tag_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].value"", ""وفر29%"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].key"", ""promo_text"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:28,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].value"", ""11.66 AUD / شهرياً"")",,,,2023-08-20 14:33:28,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].key"", ""deduction_text"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].value"", "" 139.99 AUD  تدفع سنوياً"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].value"", ""true"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].key"", ""show_tag"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].value"", ""true"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].key"", ""price"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].value"", ""139.99"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].key"", ""currency"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].value"", ""AUD"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].key"", ""duration"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].value"", ""سنوياً"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].order"", ""2"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.006s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].period"", ""yearly"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].price"", ""139.99"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].currency"", ""AUD"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_12M"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].value"", ""البطاقة المصرفية"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].priceLabel"", ""139.99"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].productId"", ""AUS_B2C_SHAHID_VIP_12M"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[1].value"", ""اشترك"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].priceLabel"", ""139.99"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].key"", ""main_CTA_text_1"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].key"", ""main_disclaimer_text"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].value"", ""رسوم الاشتراك قد تختلف بناءً على البلد أو طريقة الدفع أو باقة الاشتراك أو الضريبة المضافة أو معامل تحويل العملات والرسوم البنكية. تطبّق الشروط والأحكام."")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].key"", ""display_type"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].value"", ""vertical"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""defaultPackageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:29,0.007s,PASSED
+,,,,,,,
+Test Cases/WEB - SAFARI/AUS PI/WEB_EN_getSubscriptionConfigForAUS_Ultimate,,,,2023-08-20 14:33:29,2023-08-20 14:33:35,5.271s,FAILED
+"getResponse = config_files.getConfigFile.getConfig(""WEB"", ""EN"", ""SHAHID_VIP_GEA_SPORT"", ""AU"", ""true"")",,,,2023-08-20 14:33:29,2023-08-20 14:33:30,0.553s,PASSED
+"verifyResponseStatusCode(getResponse, 200)",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.001s,PASSED
+"verifyElementPropertyValue(getResponse, ""country"", ""AUS"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""platform"", ""[WEB]"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_GEA_SPORT"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].catalogId"", ""GEA"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].value"", ""Monthly Plan"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].key"", ""promo_text"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].value"", ""AUD 31.99 / month"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[4].key"", ""deduction_text"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[4].value"", ""billed every month"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[7].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[7].value"", ""true"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].key"", ""show_tag"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].value"", ""false"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].key"", ""price"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].value"", ""31.99"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[11].key"", ""currency"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[11].value"", ""AUD"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[12].key"", ""duration"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[12].value"", ""Monthly"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[13].key"", ""featured_tag_text"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[13].value"", ""Most popular"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].order"", ""9"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].price"", ""31.99"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].currency"", ""AUD"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_GEA_SPORT_1M"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.019s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].value"", ""Credit/Debit Card"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""Subscribe"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""31.99"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].productId"", ""AUS_B2C_SHAHID_VIP_GEA_SPORT_1M"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].value"", ""Subscribe"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].priceLabel"", ""31.99"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].featured"", ""false"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].packageId"", ""SHAHID_VIP_GEA_SPORT"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:30,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].catalogId"", ""GEA"")",,,,2023-08-20 14:33:30,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].value"", ""Annual Plan"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].key"", ""tag_text"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].value"", ""Save 14%"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].key"", ""promo_text"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].value"", ""27.49 AUD / month"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].key"", ""deduction_text"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].value"", ""329.99 AUD billed every year"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].value"", ""true"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].key"", ""show_tag"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].value"", ""true"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].key"", ""price"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].value"", ""329.99"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].key"", ""currency"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].value"", ""AUD"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].key"", ""duration"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].value"", ""yearly"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].order"", ""11"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].period"", ""yearly"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].price"", ""329.99"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].currency"", ""AUD"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_GEA_SPORT_12M"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].value"", ""Credit/Debit Card"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value"", ""Subscribe"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].priceLabel"", ""329.99"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_GEA_SPORT_12M"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.007s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:31,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value"", ""Subscribe"")",,,,2023-08-20 14:33:31,2023-08-20 14:33:35,3.658s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.011s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].priceLabel"", ""329.99"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].key"", ""main_CTA_text_1"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].key"", ""main_disclaimer_text"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].value"", ""Subscription fees may vary depending on the country, payment method, subscription package, added tax, currency conversion factor, and bank fees. Terms and conditions apply."")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].key"", ""display_type"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.006s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].value"", ""vertical"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""defaultPackageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+,,,,,,,
+Test Cases/WEB - SAFARI/AUS PI/WEB_FR_getSubscriptionConfigForAUS_GEA,,,,2023-08-20 14:33:35,2023-08-20 14:33:36,1.559s,PASSED
+"getResponse = config_files.getConfigFile.getConfig(""WEB"", ""FR"", ""SHAHID_VIP_GEA"", ""AU"", ""true"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.579s,PASSED
+"verifyResponseStatusCode(getResponse, 200)",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.001s,PASSED
+"verifyElementPropertyValue(getResponse, ""country"", ""AUS"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""platform"", ""[WEB]"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_GEA"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].catalogId"", ""GEA"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].value"", ""Plan Mensuel"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].key"", ""promo_text"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].value"", ""20.49 AUD / mois"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[4].key"", ""deduction_text"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[4].value"", ""facturation mensuelle"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[7].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[7].value"", ""true"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].key"", ""show_tag"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].value"", ""false"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].key"", ""price"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].value"", ""20.49"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[11].key"", ""currency"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[11].value"", ""AUD"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:35,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[12].key"", ""duration"")",,,,2023-08-20 14:33:35,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[12].value"", ""Mensuel"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[13].key"", ""featured_tag_text"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[13].value"", ""Le plus populaire"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].order"", ""6"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].price"", ""20.49"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].currency"", ""AUD"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_GEA_1M"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[0].value"", ""Carte de crédit/débit"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""S'abonner"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.020s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""20.49"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].productId"", ""AUS_B2C_SHAHID_VIP_GEA_1M"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[1].value"", ""S’abonner"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].priceLabel"", ""20.49"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[1].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].featured"", ""false"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].packageId"", ""SHAHID_VIP_GEA"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].catalogId"", ""GEA"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].key"", ""Header_1_text"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].key"", ""display_title"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[1].value"", ""Plan Annuel"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].key"", ""tag_text"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[2].value"", ""Économisez 23%"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].key"", ""promo_text"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[3].value"", ""AUD 15.83 / mois"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].key"", ""deduction_text"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[4].value"", ""AUD 189.99 facturés chaque année"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].key"", ""show_payment_logo"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[7].value"", ""true"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].key"", ""show_tag"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[8].value"", ""true"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].key"", ""price"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[10].value"", ""189.99"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].key"", ""currency"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[11].value"", ""AUD"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].key"", ""duration"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].visualElements[12].value"", ""Annuel"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].order"", ""8"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].period"", ""yearly"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].price"", ""189.99"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].currency"", ""AUD"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].productId"", ""AUS_B2C_SHAHID_VIP_GEA_12M"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds"", ""null"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod"", ""CREDIT_CARD"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[0].value"", ""Carte de crédit/débit"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value"", ""S'abonner"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/iconCreditCard.png"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].priceLabel"", ""189.99"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].productId"", ""AUS_B2C_SHAHID_VIP_GEA_12M"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].paymentMethod"", ""APPLE_PAY"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].freeTrialEnabled"", ""false"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[0].key"", ""title"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[0].value"", ""Apple Pay"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.006s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[1].key"", ""CTA_text"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.006s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[1].value"", ""S’abonner"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[2].key"", ""logo"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.006s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].visualElements[2].value"", ""https://static.s3.shahid.mbc.net/widget-images/icons/ApplePay_PlanSelectionIcon.svg"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].priceLabel"", ""189.99"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].currencyLabel"", ""AUD"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[1].pricingPlanData[1].allowedForAcquisition"", ""true"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].key"", ""main_CTA_text_1"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].key"", ""main_disclaimer_text"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].value"", ""Les frais d'abonnement peuvent varier selon le pays, le moyen de paiement, le forfait, les taxes, les taux de change et les frais bancaires. Les conditions générales d'utilisation s'appliquent."")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].key"", ""display_type"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].value"", ""vertical"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""defaultPackageId"", ""SHAHID_VIP"")",,,,2023-08-20 14:33:36,2023-08-20 14:33:36,0.007s,PASSED

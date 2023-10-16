@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_FR_getSubscriptionConfigForIRQ_Ultimate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ffd145d6-42ae-4904-b027-cf82b42917d9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_FR_getSubscriptionConfigForIRQ_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c155d66a-85c3-4ebe-b151-f503ec274790</testCaseGuid>
+</TestCaseEntity>

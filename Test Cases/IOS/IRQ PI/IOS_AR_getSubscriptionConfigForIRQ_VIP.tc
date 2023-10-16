@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IOS_AR_getSubscriptionConfigForIRQ_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a83252c1-56f7-4d2b-9e5e-28c8954d89ca</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IOS_FR_getSubscriptionConfigForBHR_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5a3f6cf-0b66-4a4c-b355-f21df65801b7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_FR_getSubscriptionConfigForLBN_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de12e8c6-9bb5-4400-bd4f-464ec7e701ee</testCaseGuid>
+</TestCaseEntity>

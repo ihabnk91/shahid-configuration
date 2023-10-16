@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_EN_getSubscriptionConfigForFRA_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1e5b0f5-129c-4d55-a7b9-551e575e67ff</testCaseGuid>
+</TestCaseEntity>

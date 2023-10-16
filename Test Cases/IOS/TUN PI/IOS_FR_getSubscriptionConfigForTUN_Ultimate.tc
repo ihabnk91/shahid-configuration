@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IOS_FR_getSubscriptionConfigForTUN_Ultimate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a31d4c8-159f-4d29-948c-e0c65f320e4b</testCaseGuid>
+</TestCaseEntity>

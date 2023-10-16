@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_FR_getSubscriptionConfigForAUS_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd6ab527-50fc-47ea-b572-83a70a94e039</testCaseGuid>
+</TestCaseEntity>

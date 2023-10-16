@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IOS_EN_getSubscriptionConfigForTUN_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce8852b0-e896-4513-8229-3365edc1ab16</testCaseGuid>
+</TestCaseEntity>

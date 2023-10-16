@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IOS_EN_getSubscriptionConfigForCAN_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec81ef41-24f9-4fb3-ac7d-5c4be51e9c2a</testCaseGuid>
+</TestCaseEntity>

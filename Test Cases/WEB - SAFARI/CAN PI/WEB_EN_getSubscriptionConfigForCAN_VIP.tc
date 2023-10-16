@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_EN_getSubscriptionConfigForCAN_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5f7864d-6b08-4024-b91e-c8f8ef29101d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "124B8DBC60135C46AFD7DF93955377CD",
+  "keywordClasses": [
+    {
+      "name": "common.CommonKeywords",
+      "keywordMethods": [
+        {
+          "name": "convertStringToJson",
+          "parameters": [
+            {
+              "name": "targetString",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Convert string to JSON object\n\t * @param string to convert\n\t * @return a JSON object\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_AR_getSubscriptionConfigForTUN_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdb5b0ad-ba29-4e39-843f-138499a2aa1d</testCaseGuid>
+</TestCaseEntity>

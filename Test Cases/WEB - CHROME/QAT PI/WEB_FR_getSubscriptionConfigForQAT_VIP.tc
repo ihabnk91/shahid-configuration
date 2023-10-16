@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_FR_getSubscriptionConfigForQAT_VIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a295caa8-2d42-487d-8e60-fc784a4d233f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_FR_getSubscriptionConfigForIRQ_SPORT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e41c86b7-bde4-40b1-8d64-6a40a101455f</testCaseGuid>
+</TestCaseEntity>

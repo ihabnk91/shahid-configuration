@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB_FR_getSubscriptionConfigForISR_SPORT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01a2e5e7-6fd2-4b04-82b0-36fcb43f0144</testCaseGuid>
+</TestCaseEntity>
