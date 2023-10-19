@@ -1,0 +1,1934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EGY PI" time="11.823" tests="6" failures="0" errors="0">
+   <testsuite name="EGY PI" tests="6" failures="0" errors="0" time="11.823" skipped="0" timestamp="2023-10-18 16:34:30" hostname="admin - 172.20.10.6" id="Test Suites/Android/EGY PI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/shahid-configuration/Reports/20231018_161841/Android/EGY PI/20231018_161918"/>
+         <property name="logFiles" value="/Users/admin/git/shahid-configuration/Reports/20231018_161841/Android/EGY PI/20231018_161918/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 172.20.10.6"/>
+         <property name="hostAddress" value="172.20.10.6"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+      </properties>
+      <testcase name="Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_SPORT" time="3.812" classname="Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_SPORT" status="PASSED">
+         <system-out><![CDATA[2023-10-18 16:34:31 - [TEST_CASE][PASSED] - Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_SPORT: Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_SPORT
+
+2023-10-18 16:34:31 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "AR", "SHAHID_VIP_SPORT", "EG", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:33 - [MESSAGE][INFO] - HAR: /Users/admin/git/shahid-configuration/Reports/20231018_161841/Android/EGY PI/20231018_161918/requests/main/0.har
+
+2023-10-18 16:34:33 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-18 16:34:33 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-18 16:34:33 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-18 16:34:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "EGY"): Verify element property value successfully
+
+2023-10-18 16:34:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-18 16:34:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "true"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_VIP_SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "الاشتراك الشهري"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].key", "promo_text"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].value", "299.99 EGP / شهرياً"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "deduction_text"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "تدفع شهرياً"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "price"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "299.99"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].key", "currency"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].value", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "duration"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "شهرياً"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].key", "featured_tag_text"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].value", "الأكثر مبيعاً"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "3"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "299.99"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "EGY_B2C_SHAHID_VIP_SPORT_1M"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[net.shahid.monthly.vipsports]"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "اشترك"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "299.99"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].featured", "false"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].packageId", "SHAHID_VIP_SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].catalogId", "SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].value", "الاشتراك السنوي"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].key", "tag_text"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].value", "وفر8%"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].value", "274.99 EGP / شهرياً"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].value", " 3299.99 EGP  تدفع سنوياً"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].value", "3299.99"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].value", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].value", "سنوياً"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].order", "5"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].period", "yearly"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].price", "3299.99"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].currency", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].productId", "EGY_B2C_SHAHID_VIP_SPORT_12M"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds", "[net.shahid.yearly.vipsports]"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value", "اشترك"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].priceLabel", "3299.99"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition", "true"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "العرض غير متاح للمشتركين السابقين عبر جوجل بلاي. رسوم الاشتراك قد تختلف بناءً على البلد أو طريقة الدفع أو باقة الاشتراك أو الضريبة المضافة أو معامل تحويل العملات والرسوم البنكية. تطبّق الشروط والأحكام."): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-18 16:34:34 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ANDROID/EGY PI/ANDROID_EN_getSubscriptionConfigForEGY_Imagine" time="1.487" classname="Test Cases/ANDROID/EGY PI/ANDROID_EN_getSubscriptionConfigForEGY_Imagine" status="PASSED">
+         <system-out><![CDATA[2023-10-18 16:34:34 - [TEST_CASE][PASSED] - Test Cases/ANDROID/EGY PI/ANDROID_EN_getSubscriptionConfigForEGY_Imagine: Test Cases/ANDROID/EGY PI/ANDROID_EN_getSubscriptionConfigForEGY_Imagine
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "EN", "SHAHID_VIP_GEA", "EG", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:35 - [MESSAGE][INFO] - HAR: /Users/admin/git/shahid-configuration/Reports/20231018_161841/Android/EGY PI/20231018_161918/requests/main/1.har
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "EGY"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "true"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_VIP_GEA"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "GEA"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "Monthly Plan"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "174.99 EGP/ month"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[4].value", "billed every month"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "false"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "174.99"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].value", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[12].value", "Monthly"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[13].key", "featured_tag_text"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[13].value", "Most popular"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "6"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "174.99"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "EGY_B2C_SHAHID_VIP_GEA_1M"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[net.shahid.monthly.gea]"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "Subscribe"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "174.99"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].featured", "false"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].packageId", "SHAHID_VIP_GEA"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].catalogId", "GEA"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-18 16:34:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].value", "Annual Plan"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].key", "tag_text"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].value", "Save 16%"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].value", "146.66 EGP/ month"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].value", "1759.99 EGP billed every year"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].value", "1759.99"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].value", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].value", "yearly"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].order", "8"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].period", "yearly"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].price", "1759.99"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].currency", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].productId", "EGY_B2C_SHAHID_VIP_GEA_12M"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds", "[net.shahid.12months.gea]"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value", "Subscribe"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].priceLabel", "1759.99"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition", "true"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "This offer is not valid for users previously subscribed through Google Play. Subscription fees may vary depending on the country, payment method, subscription package, added tax, currency conversion factor, and bank fees. Terms and conditions apply."): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_MO" time="1.034" classname="Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_MO" status="PASSED">
+         <system-out><![CDATA[2023-10-18 16:34:36 - [TEST_CASE][PASSED] - Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_MO: Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_MO
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "AR", "SHAHID_MOBILE_ONLY", "EG", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:36 - [MESSAGE][INFO] - HAR: /Users/admin/git/shahid-configuration/Reports/20231018_161841/Android/EGY PI/20231018_161918/requests/main/2.har
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "EGY"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "true"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_MOBILE_ONLY"): Verify element property value successfully
+
+2023-10-18 16:34:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "VIP"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "الاشتراك الشهري"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "28.99 EGP / شهرياً"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[4].value", "تدفع شهرياً"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "false"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "28.99"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].value", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[12].value", "شهرياً"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[13].key", "featured_tag_text"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[13].value", " الأكثر مبيعاً"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "0"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "28.99"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "EGY_SHAHID_MOBILE_ONLY_1M"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[net.shahid.monthly.vipmobile]"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "اشترك"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "28.99"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "العرض غير متاح للمشتركين السابقين عبر جوجل بلاي. رسوم الاشتراك قد تختلف بناءً على البلد أو طريقة الدفع أو باقة الاشتراك أو الضريبة المضافة أو معامل تحويل العملات والرسوم البنكية. تطبّق الشروط والأحكام."): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-18 16:34:37 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_VIP" time="2.252" classname="Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_VIP" status="PASSED">
+         <system-out><![CDATA[2023-10-18 16:34:37 - [TEST_CASE][PASSED] - Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_VIP: Test Cases/ANDROID/EGY PI/ANDROID_AR_getSubscriptionConfigForEGY_VIP
+
+2023-10-18 16:34:37 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "AR", "SHAHID_VIP", "EG", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:38 - [MESSAGE][INFO] - HAR: /Users/admin/git/shahid-configuration/Reports/20231018_161841/Android/EGY PI/20231018_161918/requests/main/3.har
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "EGY"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "true"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "VIP"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "الاشتراك الشهري"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].key", "promo_text"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].value", "88.99 EGP / شهرياً"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "deduction_text"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "تدفع شهرياً"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[12].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "price"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "88.99"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].key", "currency"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].value", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "duration"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "شهرياً"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].key", "featured_tag_text"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[11].value", "الأكثر مبيعاً"): Verify element property value successfully
+
+2023-10-18 16:34:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "0"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "88.99"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "EGY_B2C_SHAHID_VIP_1M"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[mbc.shahid.plus1monthfreetrial]"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "اشترك"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "88.99"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].featured", "false"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].packageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].catalogId", "VIP"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].value", "الاشتراك السنوي"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].key", "tag_text"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].value", "وفر29%"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].value", "63.33 EGP / شهرياً"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].value", " 759.99 EGP  تدفع سنوياً"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].value", "759.99"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].value", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].value", "سنوياً"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].order", "2"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].period", "yearly"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].price", "759.99"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].currency", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].productId", "EGY_B2C_SHAHID_VIP_12M"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds", "[mbc.shahid.plusyearly]"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value", "اشترك"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].priceLabel", "759.99"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition", "true"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "العرض غير متاح للمشتركين السابقين عبر جوجل بلاي. رسوم الاشتراك قد تختلف بناءً على البلد أو طريقة الدفع أو باقة الاشتراك أو الضريبة المضافة أو معامل تحويل العملات والرسوم البنكية. تطبّق الشروط والأحكام."): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-18 16:34:39 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ANDROID/EGY PI/ANDROID_EN_getSubscriptionConfigForEGY_SPORT" time="1.536" classname="Test Cases/ANDROID/EGY PI/ANDROID_EN_getSubscriptionConfigForEGY_SPORT" status="PASSED">
+         <system-out><![CDATA[2023-10-18 16:34:39 - [TEST_CASE][PASSED] - Test Cases/ANDROID/EGY PI/ANDROID_EN_getSubscriptionConfigForEGY_SPORT: Test Cases/ANDROID/EGY PI/ANDROID_EN_getSubscriptionConfigForEGY_SPORT
+
+2023-10-18 16:34:39 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "EN", "SHAHID_VIP_SPORT", "EG", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:40 - [MESSAGE][INFO] - HAR: /Users/admin/git/shahid-configuration/Reports/20231018_161841/Android/EGY PI/20231018_161918/requests/main/4.har
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "EGY"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "true"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_VIP_SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "Monthly Plan"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].key", "promo_text"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].value", "299.99 EGP/ month"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "deduction_text"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "billed every month"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "price"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "299.99"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].key", "currency"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].value", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "duration"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "Monthly"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "3"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "299.99"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "EGY_B2C_SHAHID_VIP_SPORT_1M"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[net.shahid.monthly.vipsports]"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "Subscribe"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "299.99"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].featured", "false"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].packageId", "SHAHID_VIP_SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].catalogId", "SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].value", "Annual Plan"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].key", "tag_text"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].value", "Save 8%"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].value", "274.99 EGP/ month"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].value", "3299.99 EGP billed every year"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].value", "3299.99"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].value", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-18 16:34:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].value", "yearly"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].order", "5"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].period", "yearly"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].price", "3299.99"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].currency", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].productId", "EGY_B2C_SHAHID_VIP_SPORT_12M"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds", "[net.shahid.yearly.vipsports]"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value", "Subscribe"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].priceLabel", "3299.99"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition", "true"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "Watch the most powerful series and movies exclusively without stopping"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "This offer is not valid for users previously subscribed through Google Play. Subscription fees may vary depending on the country, payment method, subscription package, added tax, currency conversion factor, and bank fees. Terms and conditions apply."): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-18 16:34:41 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ANDROID/EGY PI/ANDROID_FR_getSubscriptionConfigForEGY_SPORT" time="1.506" classname="Test Cases/ANDROID/EGY PI/ANDROID_FR_getSubscriptionConfigForEGY_SPORT" status="PASSED">
+         <system-out><![CDATA[2023-10-18 16:34:41 - [TEST_CASE][PASSED] - Test Cases/ANDROID/EGY PI/ANDROID_FR_getSubscriptionConfigForEGY_SPORT: Test Cases/ANDROID/EGY PI/ANDROID_FR_getSubscriptionConfigForEGY_SPORT
+
+2023-10-18 16:34:41 - [TEST_STEP][PASSED] - getResponse = config_files.getConfigFile.getConfig("ANDROID_APP", "FR", "SHAHID_VIP_SPORT", "EG", "false"): config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:42 - [MESSAGE][INFO] - HAR: /Users/admin/git/shahid-configuration/Reports/20231018_161841/Android/EGY PI/20231018_161918/requests/main/5.har
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - config_files.getConfigFile.getConfig is PASSED
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getResponse, 200): Verify response status code successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "country", "EGY"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "platform", "[ANDROID_APP]"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].featured", "true"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].packageId", "SHAHID_VIP_SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].catalogId", "SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[0].value", "Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[1].value", "Plan Mensuel"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].key", "promo_text"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[2].value", "299.99 EGP/ mois"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].key", "deduction_text"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[3].value", "facturation mensuelle"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[6].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].key", "price"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[8].value", "299.99"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].key", "currency"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[9].value", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].key", "duration"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].visualElements[10].value", "Mensuel"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].order", "3"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].period", "monthly"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].price", "299.99"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].currency", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].productId", "EGY_B2C_SHAHID_VIP_SPORT_1M"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds", "[net.shahid.monthly.vipsports]"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value", "S'abonner"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].priceLabel", "299.99"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].featured", "false"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].packageId", "SHAHID_VIP_SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].catalogId", "SPORT"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].key", "Header_1_text"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[0].value", "Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].key", "display_title"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[1].value", "Plan Annuel"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].key", "tag_text"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[2].value", "Économisez 8%"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].key", "promo_text"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[3].value", "274.99 EGP/ mois"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].key", "deduction_text"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[4].value", "3299.99 EGP facturés chaque année"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].key", "show_payment_logo"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[7].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].key", "show_tag"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[8].value", "true"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].key", "price"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[10].value", "3299.99"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].key", "currency"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[11].value", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].key", "duration"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].visualElements[12].value", "Annuel"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].order", "5"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].period", "yearly"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].price", "3299.99"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].currency", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].productId", "EGY_B2C_SHAHID_VIP_SPORT_12M"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].subPricingPlanIds", "[net.shahid.yearly.vipsports]"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].paymentMethod", "GOOGLE_IAP"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].freeTrialEnabled", "false"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].key", "CTA_text"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[1].value", "S'abonner"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].key", "logo"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].visualElements[2].value", "google"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].priceLabel", "3299.99"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].currencyLabel", "EGP"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "groups[0].pricingPlans[1].pricingPlanData[0].allowedForAcquisition", "true"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].key", "main_CTA_text_1"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[0].value", "Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].key", "main_disclaimer_text"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[2].value", "L'offre n'est pas valable pour les anciens abonnés via Google Play. Les frais d’abonnement peuvent varier selon le pays, le moyen de paiement, le forfait, les taxes, les taux de change et les frais bancaires. Les conditions générales d’utilisation s’appliquent."): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].key", "display_type"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "visualElements[4].value", "vertical"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-18 16:34:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getResponse, "defaultPackageId", "SHAHID_VIP"): Verify element property value successfully
+
+2023-10-18 16:34:42 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-18 16:34:30 - [TEST_SUITE][PASSED] - EGY PI: Test Cases/ANDROID/EGY PI/ANDROID_FR_getSubscriptionConfigForEGY_SPORT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

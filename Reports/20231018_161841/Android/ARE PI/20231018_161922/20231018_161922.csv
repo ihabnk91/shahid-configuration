@@ -1,0 +1,940 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ARE PI,,,,2023-10-18 16:35:56,2023-10-18 16:36:13,17.298s,FAILED
+,,,,,,,
+Test Cases/ANDROID/ARE PI/ANDROID_AR_getSubscriptionConfigForARE_SPORT,,,,2023-10-18 16:35:56,2023-10-18 16:36:01,5.477s,PASSED
+"getResponse = config_files.getConfigFile.getConfig(""ANDROID_APP"", ""AR"", ""SHAHID_VIP_SPORT"", ""AE"", ""false"")",,,,2023-10-18 16:35:56,2023-10-18 16:35:59,3.023s,PASSED
+"verifyResponseStatusCode(getResponse, 200)",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""country"", ""ARE"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.026s,PASSED
+"verifyElementPropertyValue(getResponse, ""platform"", ""[ANDROID_APP]"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].offerId"", ""winback-sport-30-offer"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].offerParam"", ""sportsoffer30"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].price"", ""48.99"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[1].value"", ""احصل على خصم 30%"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[8].value"", ""48.99"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[11].value"", ""عرض لمدة محدودة"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[13].value"", ""وفر 30%"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:35:59,2023-10-18 16:35:59,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:35:59,2023-10-18 16:36:00,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""48.99"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.017s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_WB_SPORT_30P_ARE"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.015s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].offerId"", ""winback-sport-40-offer"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].offerParam"", ""sportsoffer40"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].price"", ""41.99"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[1].value"", ""احصل على خصم 40%"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[8].value"", ""41.99"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[11].value"", ""عرض لمدة محدودة"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[13].value"", ""وفر 40%"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.020s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""41.99"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_WB_SPORT_40P_ARE"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].offerId"", ""winback-sport-50-offer"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].offerParam"", ""sportsoffer50"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].price"", ""34.99"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[1].value"", ""احصل على خصم 50%"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[8].value"", ""34.99"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[11].value"", ""عرض لمدة محدودة"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[13].value"", ""وفر 50%"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""34.99"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_WB_SPORT_50P_ARE"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:00,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-10-18 16:36:00,2023-10-18 16:36:01,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].value"", ""الاشتراك الشهري  "")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].value"", ""69.99 AED / شهرياً"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].value"", ""69.99"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].order"", ""3"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].price"", ""69.99"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""69.99"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].featured"", ""false"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[1].value"", ""الاشتراك السنوي "")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[2].key"", ""tag_text"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[2].value"", ""وفر17%"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[3].key"", ""promo_text"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[3].value"", ""58.33 AED / شهرياً"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[4].key"", ""deduction_text"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[4].value"", "" 699.99 AED  تدفع سنوياً"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[7].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[7].value"", ""true"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[8].key"", ""show_tag"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[8].value"", ""true"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[10].key"", ""price"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[10].value"", ""699.99"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[11].key"", ""currency"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[11].value"", ""AED"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[12].key"", ""duration"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[12].value"", ""سنوياً"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].order"", ""5"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].period"", ""yearly"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].price"", ""699.99"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].currency"", ""AED"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_12M"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.yearly.vipsports]"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].priceLabel"", ""699.99"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].key"", ""main_CTA_text_1"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].key"", ""main_disclaimer_text"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].value"", ""العرض غير متاح للمشتركين السابقين عبر جوجل بلاي. رسوم الاشتراك قد تختلف بناءً على البلد أو طريقة الدفع أو باقة الاشتراك أو الضريبة المضافة أو معامل تحويل العملات والرسوم البنكية. تطبّق الشروط والأحكام."")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].key"", ""display_type"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].value"", ""vertical"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""defaultPackageId"", ""SHAHID_VIP"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:01,0.009s,PASSED
+,,,,,,,
+Test Cases/ANDROID/ARE PI/ANDROID_AR_getSubscriptionConfigForARE_VIP,,,,2023-10-18 16:36:01,2023-10-18 16:36:05,3.828s,PASSED
+"getResponse = config_files.getConfigFile.getConfig(""ANDROID_APP"", ""AR"", ""SHAHID_VIP"", ""AE"", ""false"")",,,,2023-10-18 16:36:01,2023-10-18 16:36:02,0.730s,PASSED
+"verifyResponseStatusCode(getResponse, 200)",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.002s,PASSED
+"verifyElementPropertyValue(getResponse, ""country"", ""ARE"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""platform"", ""[ANDROID_APP]"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].offerId"", ""winback-30-offer"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].offerParam"", ""winback30"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].price"", ""27.99"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].catalogId"", ""VIP"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.016s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[1].value"", ""احصل على خصم 30%"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[2].value"", ""34.99 AED / شهرياً"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[8].value"", ""27.99"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[11].value"", ""عرض لمدة محدودة"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.016s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[13].value"", ""وفر 30%"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.015s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:02,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:36:02,2023-10-18 16:36:03,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_1M"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.015s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[mbc.shahid.gccmonthly]"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""27.99"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.030s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.034s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_RE_30P_ARE"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.030s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.020s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.019s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.021s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.020s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[0].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.019s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].offerId"", ""winback-40-offer"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.021s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].offerParam"", ""winback40"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.029s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.023s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.029s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.027s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].price"", ""23.99"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.022s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.027s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.021s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.020s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].catalogId"", ""VIP"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.016s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.016s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.017s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[1].value"", ""احصل على خصم 40%"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.016s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[2].value"", ""34.99 AED / شهرياً"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.015s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[8].value"", ""23.99"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[11].value"", ""عرض لمدة محدودة"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[13].value"", ""وفر 40%"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_1M"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[mbc.shahid.gccmonthly]"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""23.99"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_RE_40P_ARE"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[1].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].offerId"", ""winback-50-offer"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].offerParam"", ""winback50"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:03,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].price"", ""19.99"")",,,,2023-10-18 16:36:03,2023-10-18 16:36:04,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.025s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].catalogId"", ""VIP"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[1].value"", ""احصل على خصم 50%"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[2].value"", ""34.99 AED / شهرياً"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[8].value"", ""19.99"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.016s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.017s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.017s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[11].value"", ""عرض لمدة محدودة"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[13].value"", ""وفر 50%"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_1M"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[mbc.shahid.gccmonthly]"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].showIn[0]"", ""VERTICAL_MODE"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].showIn[1]"", ""HORIZONTAL_MODE"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.015s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""19.99"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_RE_50P_ARE"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.024s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.019s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[2].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.028s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.020s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].catalogId"", ""VIP"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].value"", ""الاشتراك الشهري"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].value"", ""39.99 AED / شهرياً"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].value"", ""تدفع شهرياً"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].value"", ""39.99"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].value"", ""شهرياً"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].price"", ""39.99"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_1M"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[mbc.shahid.gccmonthly]"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""39.99"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].featured"", ""false"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].packageId"", ""SHAHID_VIP"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].catalogId"", ""VIP"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[1].value"", ""الاشتراك السنوي "")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[2].key"", ""tag_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[2].value"", ""وفر29%"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:04,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[3].key"", ""promo_text"")",,,,2023-10-18 16:36:04,2023-10-18 16:36:05,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[3].value"", ""28.33 AED / شهرياً"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[4].key"", ""deduction_text"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[4].value"", "" 339.99 AED  تدفع سنوياً"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[7].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[7].value"", ""true"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[8].key"", ""show_tag"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.015s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[8].value"", ""true"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.016s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[10].key"", ""price"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[10].value"", ""339.99"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[11].key"", ""currency"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[11].value"", ""AED"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[12].key"", ""duration"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[12].value"", ""سنوياً"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].order"", ""2"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].period"", ""yearly"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.016s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].price"", ""339.99"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].currency"", ""AED"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_12M"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].subPricingPlanIds"", ""[mbc.shahid.plusyearly]"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.021s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.037s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.025s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.045s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[1].value"", ""اشترك"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.015s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].priceLabel"", ""339.99"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.029s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].key"", ""main_CTA_text_1"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.018s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].value"", ""شاهد أقوى المسلسلات و الأفلام حصرياً دون توقف"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].key"", ""main_disclaimer_text"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].value"", ""العرض غير متاح للمشتركين السابقين عبر جوجل بلاي. رسوم الاشتراك قد تختلف بناءً على البلد أو طريقة الدفع أو باقة الاشتراك أو الضريبة المضافة أو معامل تحويل العملات والرسوم البنكية. تطبّق الشروط والأحكام."")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].key"", ""display_type"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].value"", ""vertical"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""defaultPackageId"", ""SHAHID_VIP"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:05,0.010s,PASSED
+,,,,,,,
+Test Cases/ANDROID/ARE PI/ANDROID_FR_getSubscriptionConfigForARE_Ultimate,,,,2023-10-18 16:36:05,2023-10-18 16:36:07,1.851s,FAILED
+"getResponse = config_files.getConfigFile.getConfig(""ANDROID_APP"", ""FR"", ""SHAHID_VIP_GEA_SPORT"", ""AE"", ""false"")",,,,2023-10-18 16:36:05,2023-10-18 16:36:06,0.677s,PASSED
+"verifyResponseStatusCode(getResponse, 200)",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.001s,PASSED
+"verifyElementPropertyValue(getResponse, ""country"", ""ARE"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.016s,PASSED
+"verifyElementPropertyValue(getResponse, ""platform"", ""[ANDROID_APP]"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_GEA_SPORT"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].catalogId"", ""GEA"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].value"", ""Plan Mensuel"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].key"", ""promo_text"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].value"", ""79.99 AED / mois"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[4].key"", ""deduction_text"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[4].value"", ""facturation mensuelle"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[7].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[7].value"", ""true"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].key"", ""show_tag"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].value"", ""false"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].key"", ""price"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].value"", ""79.99"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[11].key"", ""currency"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[11].value"", ""AED"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[12].key"", ""duration"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[12].value"", ""Mensuel"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[13].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[13].value"", ""Le plus populaire"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].order"", ""9"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].price"", ""79.99"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_GEA_SPORT_1M"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.platinumgea]"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.015s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""S’abonner"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""79.99"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].featured"", ""false"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].packageId"", ""SHAHID_VIP_GEA_SPORT"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].catalogId"", ""GEA"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.015s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[1].value"", ""Plan Annuel "")",,,,2023-10-18 16:36:06,2023-10-18 16:36:06,0.024s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[2].key"", ""tag_text"")",,,,2023-10-18 16:36:06,2023-10-18 16:36:07,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[2].value"", ""Économisez 14%"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[3].key"", ""promo_text"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[3].value"", ""69.16 AED / mois"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[4].key"", ""deduction_text"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[4].value"", ""829.99 AED facturés chaque année"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[7].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[7].value"", ""true"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[8].key"", ""show_tag"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[8].value"", ""true"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[10].key"", ""price"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.022s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[10].value"", ""829.99"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[11].key"", ""currency"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[11].value"", ""AED"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[12].key"", ""duration"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[12].value"", ""Annuel"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].order"", ""11"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].period"", ""yearly"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].price"", ""829.99"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].currency"", ""AED"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_GEA_SPORT_12M"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.12months.platinumgea]"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[1].value"", ""S’abonner"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].priceLabel"", ""829.99"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].key"", ""main_CTA_text_1"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].key"", ""main_disclaimer_text"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].value"", ""L'offre n'est pas valable pour les anciens abonnés via Google Play. Les frais d’abonnement peuvent varier selon le pays, le moyen de paiement, le forfait, les taxes, les taux de change et les frais bancaires. Les conditions générales d’utilisation s’appliquent."")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].key"", ""display_type"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].value"", ""vertical"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""defaultPackageId"", ""SHAHID_VIP"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:07,0.013s,PASSED
+,,,,,,,
+Test Cases/ANDROID/ARE PI/ANDROID_EN_getSubscriptionConfigForARE_SPORT,,,,2023-10-18 16:36:07,2023-10-18 16:36:10,2.913s,FAILED
+"getResponse = config_files.getConfigFile.getConfig(""ANDROID_APP"", ""EN"", ""SHAHID_VIP_SPORT"", ""AE"", ""false"")",,,,2023-10-18 16:36:07,2023-10-18 16:36:08,0.741s,PASSED
+"verifyResponseStatusCode(getResponse, 200)",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.001s,PASSED
+"verifyElementPropertyValue(getResponse, ""country"", ""ARE"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""platform"", ""[ANDROID_APP]"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].offerId"", ""winback-sport-30-offer"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].offerParam"", ""sportsoffer30"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].price"", ""48.99"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[1].value"", ""30% Discount Offer"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.008s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[3].value"", ""billed every month"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[8].value"", ""48.99"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[10].value"", ""Monthly"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[11].value"", ""Limited Time Offer"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[13].value"", ""Save 30%"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""48.99"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_WB_SPORT_30P_ARE"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""Subscribe"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].offerId"", ""winback-sport-40-offer"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].offerParam"", ""sportsoffer40"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].price"", ""41.99"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[1].value"", ""40% Discount Offer"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[3].value"", ""billed every month"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[8].value"", ""41.99"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:08,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:08,2023-10-18 16:36:09,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[10].value"", ""Monthly"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.025s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[11].value"", ""Limited Time Offer"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[13].value"", ""Save 40%"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""41.99"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_WB_SPORT_40P_ARE"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""Subscribe"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].offerId"", ""winback-sport-50-offer"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].offerParam"", ""sportsoffer50"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].price"", ""34.99"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[1].value"", ""50% Discount Offer"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,FAILED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[3].value"", ""billed every month"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[8].value"", ""34.99"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[10].value"", ""Monthly"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[11].value"", ""Limited Time Offer"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[13].value"", ""Save 50%"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""34.99"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_WB_SPORT_50P_ARE"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""Subscribe"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].value"", ""Monthly Plan"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].value"", ""69.99 AED / month"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].value"", ""billed every month"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].value"", ""69.99"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].value"", ""Monthly"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].order"", ""3"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].price"", ""69.99"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""Subscribe"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""69.99"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].featured"", ""false"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[1].value"", ""Annual Plan"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[2].key"", ""tag_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[2].value"", ""Save 17%"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[3].key"", ""promo_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[3].value"", ""58.33 AED/ month"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[4].key"", ""deduction_text"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[4].value"", ""699.99 AED billed every year"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:09,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[7].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:09,2023-10-18 16:36:10,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[7].value"", ""true"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[8].key"", ""show_tag"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[8].value"", ""true"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[10].key"", ""price"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[10].value"", ""699.99"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[11].key"", ""currency"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[11].value"", ""AED"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[12].key"", ""duration"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[12].value"", ""yearly"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].order"", ""5"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].period"", ""yearly"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].price"", ""699.99"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].currency"", ""AED"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_12M"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.yearly.vipsports]"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[1].value"", ""Subscribe"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].priceLabel"", ""699.99"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].key"", ""main_CTA_text_1"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].value"", ""Watch the most powerful series and movies exclusively without stopping"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.052s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].key"", ""main_disclaimer_text"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].value"", ""This offer is not valid for users previously subscribed through Google Play. Subscription fees may vary depending on the country, payment method, subscription package, added tax, currency conversion factor, and bank fees. Terms and conditions apply."")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].key"", ""display_type"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].value"", ""vertical"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""defaultPackageId"", ""SHAHID_VIP"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:10,0.009s,PASSED
+,,,,,,,
+Test Cases/ANDROID/ARE PI/ANDROID_FR_getSubscriptionConfigForARE_SPORT,,,,2023-10-18 16:36:10,2023-10-18 16:36:13,3.037s,FAILED
+"getResponse = config_files.getConfigFile.getConfig(""ANDROID_APP"", ""FR"", ""SHAHID_VIP_SPORT"", ""AE"", ""false"")",,,,2023-10-18 16:36:10,2023-10-18 16:36:11,0.828s,PASSED
+"verifyResponseStatusCode(getResponse, 200)",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.001s,PASSED
+"verifyElementPropertyValue(getResponse, ""country"", ""ARE"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""platform"", ""[ANDROID_APP]"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].offerId"", ""winback-sport-30-offer"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].offerParam"", ""sportsoffer30"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].price"", ""48.99"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[1].value"", ""30% de réduction"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[3].value"", ""facturation mensuelle"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[8].value"", ""48.99"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[10].value"", ""Mensuel"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[11].value"", ""Offre limitée"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[13].value"", ""Économisez 30% "")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""48.99"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_WB_SPORT_30P_ARE"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""S’abonner"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[3].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].offerId"", ""winback-sport-40-offer"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].offerParam"", ""sportsoffer40"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].price"", ""41.99"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[1].value"", ""40% de réduction"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[3].value"", ""facturation mensuelle"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[8].value"", ""41.99"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[10].value"", ""Mensuel"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:11,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:11,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[11].value"", ""Offre limitée"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[13].value"", ""Économisez 40% "")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.007s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""41.99"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_WB_SPORT_40P_ARE"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""S’abonner"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[4].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].offerId"", ""winback-sport-50-offer"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].offerParam"", ""sportsoffer50"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].price"", ""34.99"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].order"", ""0"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[1].value"", ""50% de réduction"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[3].value"", ""facturation mensuelle"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[8].value"", ""34.99"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.013s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[10].value"", ""Mensuel"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[11].key"", ""featured_tag_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[11].value"", ""Offre limitée"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[13].key"", ""tag_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.012s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[13].value"", ""Économisez 50% "")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.014s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[12].key"", ""show_tag"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.039s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].visualElements[12].value"", ""true"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""34.99"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].dealId"", ""GW_WB_SPORT_50P_ARE"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""S’abonner"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""offers[5].groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].featured"", ""true"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[1].value"", ""Plan Mensuel"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].key"", ""promo_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[2].value"", ""69.99 AED / mois"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].key"", ""deduction_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[3].value"", ""facturation mensuelle"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[6].value"", ""true"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].key"", ""price"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[8].value"", ""69.99"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].key"", ""currency"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[9].value"", ""AED"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].key"", ""duration"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].visualElements[10].value"", ""Mensuel"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].order"", ""3"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].period"", ""monthly"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].price"", ""69.99"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].currency"", ""AED"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_1M"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.monthly.vipsports]"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[1].value"", ""S’abonner"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].priceLabel"", ""69.99"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[0].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].featured"", ""false"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.020s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].packageId"", ""SHAHID_VIP_SPORT"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].catalogId"", ""SPORT"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[0].key"", ""Header_1_text"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:12,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[1].key"", ""display_title"")",,,,2023-10-18 16:36:12,2023-10-18 16:36:13,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[1].value"", ""Plan Annuel "")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,FAILED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[2].key"", ""tag_text"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[2].value"", ""Économisez 17%"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[3].key"", ""promo_text"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[3].value"", ""58.33 AED/ mois"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[4].key"", ""deduction_text"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[4].value"", ""699.99 AED facturés chaque année"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.027s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[7].key"", ""show_payment_logo"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[7].value"", ""true"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[8].key"", ""show_tag"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[8].value"", ""true"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[10].key"", ""price"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[10].value"", ""699.99"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[11].key"", ""currency"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[11].value"", ""AED"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[12].key"", ""duration"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].visualElements[12].value"", ""Annuel"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].order"", ""5"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].period"", ""yearly"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].price"", ""699.99"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].currency"", ""AED"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].productId"", ""UAE_B2C_SHAHID_VIP_SPORT_12M"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].subPricingPlanIds"", ""[net.shahid.yearly.vipsports]"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.010s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].paymentMethod"", ""GOOGLE_IAP"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].freeTrialEnabled"", ""false"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.011s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[1].key"", ""CTA_text"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[1].value"", ""S’abonner"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[2].key"", ""logo"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].visualElements[2].value"", ""google"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].priceLabel"", ""699.99"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].currencyLabel"", ""AED"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""groups[0].pricingPlans[2].pricingPlanData[0].allowedForAcquisition"", ""true"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].key"", ""main_CTA_text_1"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[0].value"", ""Abonnez-vous dès maintenant et profitez de vos programmes sans publicité"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].key"", ""main_disclaimer_text"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[2].value"", ""L'offre n'est pas valable pour les anciens abonnés via Google Play. Les frais d’abonnement peuvent varier selon le pays, le moyen de paiement, le forfait, les taxes, les taux de change et les frais bancaires. Les conditions générales d’utilisation s’appliquent."")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.008s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].key"", ""display_type"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""visualElements[4].value"", ""vertical"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.009s,PASSED
+"verifyElementPropertyValue(getResponse, ""defaultPackageId"", ""SHAHID_VIP"")",,,,2023-10-18 16:36:13,2023-10-18 16:36:13,0.010s,PASSED
